@@ -12,7 +12,7 @@ const ssl = {
 const httpsServer = createServer(ssl);
 const io = new Server(httpsServer, {
 	cors: {
-		origin: ["https://frintest.github.io"],
+		origin: ["https://frunkers.github.io"],
 	},
 });
 
