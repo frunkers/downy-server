@@ -15,9 +15,9 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd /var/www/finister-radio/server
+            cd /var/www/downcut/server
             git pull origin master
             npm i
             pm2 stop ./src/server-prod.js
-            pm2 start ./src/server-prod.js --name finister-radio
+            pm2 start ./src/server-prod.js --name downcut
             exit
