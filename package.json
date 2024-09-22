@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node ./src/server-dev.js "
+    "dev": "node ./src/server-dev.js",
+	 "prod": "node ./src/server-prod.js"
   },
   "keywords": [],
   "author": "",
